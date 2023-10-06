@@ -1,0 +1,344 @@
+*{
+    outline: none;
+    text-decoration: none;
+}
+
+body, #bodyAdd {
+    background-color: silver;
+}
+
+header {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    max-width: 100%;
+    margin-left: -12px;
+    margin-top: -10px;
+    background-color:   white;
+}
+
+header #div1, #adicionar {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 200px;
+    flex-direction: row;
+    gap: 20px;
+}
+
+header #div1 label {
+    font-size: 35px;
+    margin-top: 10px;
+    color: orangered;
+}
+
+header #div1 button {
+    border: none;
+    height: 45px;
+    border-radius: 4px;
+    justify-content: center;
+    background-color: rgba(192, 192, 192, 0.349);
+}
+
+header #div1 img, #div2 img {
+    width: 40px;
+}
+
+header #div2 {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+header #div2 input {
+    width: 550px;
+    height: 20px;
+    padding: 10px;
+    border: 2px solid orangered;
+    border-radius: 6px;
+}
+
+header #div2  button {
+    border: none;
+    height: 43px;
+    margin-left: -54px;
+    justify-content: center;
+    border-top-right-radius: 6px;
+    border-top-left-radius: none;
+    background-color: orangered;
+    border-bottom-right-radius: none;
+}
+
+nav {
+    margin-bottom: 100px;
+}
+
+nav #div1 {
+    display: flex;
+    font-size: 24px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+nav #div1 span {
+    color: gray;
+    font-size: 55px;
+    margin-top: -35px;
+}
+
+nav #div1 label {
+    margin-top: 8px;
+}
+
+nav #produtos {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+#produtos #lista {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    flex-direction: row;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+#produtos #lista li {
+    width: 160px;
+    height: 250px;
+    display: flex;
+    padding: 10px;
+    list-style: none;
+    flex-direction: column;
+    background-color: white;
+}
+
+.divImg {
+    width:100%;
+    height:160px;
+    border-radius:8px;
+}
+
+#produtos #lista li p {
+    color: gray;
+    font-size: 16px;
+    margin-top: 3px;
+    margin-bottom: 7px;
+    font-weight: normal;
+    text-decoration: line-through;
+}
+
+#divDadosprod {
+    width: 350px;
+    height: auto;
+    display: flex;
+    padding: 10px;
+    font-size: 17px;
+    max-width: 350px;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* ================================================================================================================== */
+                                                    /* Página Adicionar */
+ /* ================================================================================================================== */
+
+section {
+    width: 380px;
+    height: 650px;
+    display: flex;
+    margin: 50px auto;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    background-color: white;
+    box-shadow: 6px 10px 8px rgba(94, 94, 94, 0.352);
+}
+
+section form {
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+
+section form .separa {
+    width: 240px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 3px;
+}
+
+section form .separa  input {
+    width: 220px;
+    padding: 10px;
+}
+
+section form #btns {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    flex-direction: row;
+    gap: 05px;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+#adicionar a,
+#btnSair {
+    width: 80px;
+    border: none;
+    padding: 10px;
+    color: black;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 6px;
+    background-color: orangered;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#btnSair {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+section form div #ver {
+    width: 90px;
+    height: 20px;
+    border: none;
+    padding: 05px;
+    color: black;
+    font-size: 17px;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    background-color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#cancel {
+    width: 50px;
+    padding: 8px;
+    color: black;
+    font-size: 19px;
+    margin-top: -30px;
+    margin-left: 314px;
+    text-align: center;
+    background-color: orangered;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+section form div #addItem {
+    width: 140px;
+    height: 40px;
+    padding: 5px;
+    border: none;
+    color: black;
+    font-size: 17px;
+    border-radius: 5px;
+    background-color: orangered;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+textarea {
+    width: 220px;
+    height: 40px;
+    padding: 10px;
+    resize: none;
+}
+
+#imagem {
+    width: 50px;
+    display: none;
+}
+
+#img { 
+    width: 150px;
+    display: flex;
+    height: 150px;
+    margin: 0 auto;
+    max-width: 150px;
+    border-radius: 50%;
+    margin-right: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(78, 78, 78, 0.619);
+    box-shadow: 2px 3px 3px rgba(255, 68, 0, 0.804);
+}
+
+#preview {
+    display: flex;
+    margin: 0 auto;
+    max-width: 150px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+
+#preview span {
+    width: 200px;
+    padding: 5px;
+    display: flex;
+    margin-left: -30px;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+/*Detalhes */
+#detalhes {
+    max-width: 75%;
+    display: none;
+    margin: 0 auto;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+
+}
+
+#divDetalhes {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#prodImg {
+    max-width: 250px;
+    max-height: 150px;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+#divIgmProd {
+    max-width: 250px;
+    display: flex;
+    border-radius: 10px;
+    background-color: silver;
+    box-shadow: 0px 2px 4px rgba(255, 68, 0, 0.642);
+}
+
+.novaImagem {
+    display: flex;
+    max-width: 240px;
+    max-height: 160px;
+    margin: 0 auto;
+}

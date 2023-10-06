@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Produto</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="bodyAdd">
+    <section>
+        <a href="index.html" id="cancel">Sair</a>
+        <div>
+            <h1>Add new item</h1>
+            <label>What kind of item would you like to add?</label>
+        </div>
+
+        <div>
+            <input type="radio" name="" id="service">
+            <label for="service">Service</label>
+            <input type="radio" name="" id="product">
+            <label for="product">Product</label>
+        </div>
+
+        <form action="#">
+            <div id="preview">            
+                <img src="img/avatar-light.png" alt="" id="img">
+                <span>Add Image Product</span>
+                <input type="file" name="" id="imagem" accept="imagem/*" required>
+            </div>
+
+            <div class="separa">
+                <label>Name*</label>
+                <input type="text" name="" id="name" placeholder="Eg. Business Consulting" required>
+            </div>
+
+            <div class="separa">
+                <label>Description</label>
+                <textarea name="" id="descricao" placeholder="Describe your product" required></textarea>
+            </div>
+
+            <div class="separa">
+                <label>Price*</label>
+                <input type="number" name="" id="preco" placeholder="Enter amount" required>
+            </div>
+
+            <div id="btns">
+                <button id="addItem">Add Product</button>
+                <a href="index.html" id="ver">Ver Produtos</a>
+            </div>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
